@@ -5,9 +5,11 @@ import SignUp from './Pages/SignUp';
 import SignIn from './Pages/SignIn';
 import Projects from './Pages/Projects';
 import Dashboard from './Pages/Dashboard';
+import Header from './components/Header';
 export default function App() {
   return (
     <BrowserRouter>
+    <Header/>
     <Routes>
       <Route path="/" element = {<Home/>}/>
       
